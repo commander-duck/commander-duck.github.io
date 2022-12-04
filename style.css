@@ -1,0 +1,87 @@
+
+     body { background: rgb(243, 210, 252);
+         width: 90%;
+         margin: 0 auto;
+         /* border:1px solid blue; */
+         box-sizing: border-box;}
+
+     h1 {color: rgb(194, 178, 2);
+         margin-left: auto;
+         margin-right: auto;
+         width: 90%;
+         text-align: Center;
+         /* border:1px solid red; */
+         box-sizing: border-box;}
+
+     img {display: block;
+         margin-left: auto;
+         margin-right: auto;
+         border:10px groove Plum;
+         box-sizing: border-box;}
+
+     p { margin-left: auto;
+         margin-right: auto;
+         width: 90%;
+         padding: 1em;
+         border:6px groove Plum;
+         box-sizing: border-box;}
+
+     a { display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 10px;
+         width: 90%;
+         padding: 2px 1px 0;
+         /* border:1px solid green; */
+         box-sizing: border-box;
+         text-align: Center;}
+
+     cite { display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 10px;
+         width: 90%;
+         padding: 2px 1px 0;
+         color: gray;
+         /* border:1px solid green; */
+         box-sizing: border-box;
+         text-align: Center;}
+
+     .pagelink {
+         display: block;
+         padding: 10px;
+         background-color: Plum;
+     }
+
+     ol {color:maroon;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 10px;
+         /* border:1px solid green; */
+         box-sizing: border-box;
+         text-align: Left;}
+
+     li {color:red;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 10px;
+         /* border:1px dashed green; */
+         box-sizing: border-box;
+         text-align: Left;
+         vertical-align: Top;}
+
+     figure {
+         /* border:1px dashed orange; */
+         box-sizing: border-box;}
+
+     figcaption {
+         /* border:1px dashed yellow; */
+         padding: 1em;
+         box-sizing: border-box;
+         text-align: Center;}
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(autofill);
+        gap: 10px;
+    }
